@@ -1,4 +1,4 @@
-import atribuirEstilo from "../../utils/tamanhoBotao"
+import atribuirEstilo from "../../../utils/tamanhoBotao"
 
 type BotaoProps = {
     sm?:boolean, md?:boolean, lg?:boolean, xl?:boolean, texto:string;
