@@ -4,12 +4,13 @@
 // import BotaoDanger from "../components/ui/buttons/botao-danger"
 // import BotaoCta from "../components/ui/buttons/botao-cta"
 // import Input from "../components/ui/inputs/input"
+import Toggle from "../components/ui/toggle/toggle"
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-screen h-screen bg-[#090909]">
       <div className="flex flex-col items-center justify-center w-screen h-screen gap-20 bg -[#090909]">
-        
+        <Toggle estaAtivo={true}/>
       </div>
     </main>
   );

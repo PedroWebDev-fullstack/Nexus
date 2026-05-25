@@ -1,10 +1,12 @@
-// ================================= BOTOES =================================
+// ================================================================== BOTOES ==================================================================
 
 {/*
   texto <-- Mostra o que aparecerá no botão
   sm, md, lg, xl <-- Define o tamanho do botão (sm: pequeno; md: medio; lg: grande; xl: muito grande)
 
   Tipos de botão: BotaoPrimario, BotaoSecundario, BotaoGhost, BotaoDanger, BotaoCta
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------
 
   <div className="flex flex-col items-center justify-center w-screen h-screen gap-20 bg -[#090909]">
     <div className="flex items-center justify-center gap-4">
@@ -43,7 +45,16 @@
     </div>
 </div> */}
 
-// ================================= INPUTS =================================
+// ============================================================================================================================================
+
+
+
+
+
+
+
+
+// ================================================================== INPUTS ==================================================================
 
 {/*
   tipoInput <-- Tipo de input usado (OBRIGATÓRIO)
@@ -51,7 +62,30 @@
   placeHolder <-- O que aparecerá no placeHolder (OBRIGATÓRIO)
   mensagem <-- Mensagem que aparecerá abaixo do input caso esteja "errado" ou "certo" (obs: pode ser usado pra mostrar o erro ao usuário)
 
+  ---------------------------------------------------------------------------------------------------------------------------------------------
+
   <Input status=""  placeholder="exemplo@email.com" tipoInput="text"/>
   <Input status="certo" mensagem="✓ Disponível"  placeholder="Nome de Usuário" tipoInput="text"/>
   <Input status="errado" mensagem="Mínimo de 8 caracteres" placeholder="Senha" tipoInput="password"/>
 */}
+
+// ============================================================================================================================================
+
+
+
+
+
+
+
+
+// ================================================================== TOGGLE ==================================================================
+
+{/*
+  estaAtivo <-- define se o toggle esta ativo ou nao (obs: sera salvo no banco de dados pra salvar configs e mostrar ao usuario se esta ativa ou nao)
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------
+
+  <Toggle estaAtivo={true}/> 
+*/}
+
+// ============================================================================================================================================
