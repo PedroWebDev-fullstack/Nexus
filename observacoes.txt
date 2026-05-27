@@ -1,0 +1,2 @@
+1. Desenvolver um espaço para o arquivo no TEXTAREA e MENSAGENS
+2. Terminar de desenvolver as mensagens (devem ter p horario de envio, quem esta enviando e foto de usuario, VER NA DOCUMENTACAO DE LAYOUT)
